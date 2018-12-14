@@ -1,0 +1,24 @@
+.navi {
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 10px;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.navi a {
+    padding: 8px 8px 32px 32px;
+    text-decoration: none;
+    font-size: 1.7em;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.navi a:hover {
+    color: #f1f1f1;
+}
+
+.current {
+    text-decoration: underline;
+}

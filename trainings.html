@@ -1,0 +1,22 @@
+---
+layout: default
+title: HYTKD - Harjoitukset
+---
+<h1>Harjoitukset</h1>
+
+<p>
+    Seuran säännölliset harjoitusajat ja -paikat ovat
+</p>
+
+{% for period in site.data.trainings %}
+    <h4>{{ period.dates }}</h4>
+    <ul class="non-indented-list">
+    {% for time in period.times %}
+        <li>{{ time.time }} {{ time.location }}<li>
+    {% endfor %}
+    </ul>
+{% endfor %}
+
+<p>
+    HUOM! Unidojolle tulee pakata mukaan jalkineet (esimerkiksi sandaalit) pukuhuoneen ja salin välisen matkan taittamisesti. Tämä on hygieniasyistä ensiarvoisen tärkeää!
+</p>

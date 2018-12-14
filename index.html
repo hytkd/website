@@ -1,0 +1,27 @@
+---
+layout: default
+title: HYTKD - Etusivu
+---
+<h1>Helsingin yliopiston Taekwon-Do</h1>
+<p>
+	Helsingin yliopiston Taekwon-Do ry järjestää säännöllistä Taekwon-Don harjoittelua <a href=https://uusi.unisport.fi>UniSportin</a> puitteissa Helsingin keskustassa. Seura järjestää alkeiskursseja ja jatkuvaa harjoittelua Helsingin yliopiston, Aalto-yliopiston ja Hankenin opiskelijoille ja henkilökunnalle.
+</p>
+<p>
+	Vasta-alkajille järjestetään alkeiskurssi kahdesti vuodessa: kevätkaudella tammikuun puolivälistä alkaen ja syyskaudella syyskuusta alkaen.
+</p>
+
+<h2>Ajankohtaista</h2>
+<ul class="non-indented-list">
+	{% for item in site.data.acute %}
+		<li><b>{{ item.title }}</b>
+			<p>{{ item.content }}</p>
+		</li>
+	{% endfor %}
+</ul>
+
+<h2>Seura muissa kanavissa</h2>
+<ul class="non-indented-list">
+	<li>Liity seuran sähköpostilistalle laittamalla viestiä <a href="mailto:hytkd.hallitus@hytaekwondo.com">hytkd.hallitus@hytaekwondo.com</a>.</li>
+	<li>Liity seuran <a href="https://www.facebook.com/groups/192610733921/">Facebook-ryhmään</a>.</li>
+	<li>Pyydä jotakuta seuran opettajista lisäämään sinut seuran WhatsApp-ryhmään.</li>
+	<li>Löydät seuran myös Instagramista nimellä @hytaekwondo.</li>

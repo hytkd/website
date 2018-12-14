@@ -1,0 +1,12 @@
+- name: Etusivu
+  link: /
+- name: Harjoitukset
+  link: /trainings.html
+- name: Alkeiskurssi
+  link: /course.html
+- name: Lisenssit
+  link: /licenses.html
+- name: Maksut
+  link: /payments.html
+- name: Tapahtumat
+  link: /events.html
