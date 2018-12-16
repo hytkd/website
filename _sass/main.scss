@@ -1,48 +1,37 @@
 $background-light-grey: rgb( 229, 229, 218);
 $top-bar-dark-green: rgb( 134, 146, 93);
 $body-text-black: rgb( 50, 50, 50);
-$max-screen-size: 575px;
+$max-screen-size: 60em;
 
 body {
     background-color: $background-light-grey;
     font-family: verdana, arial;
-    font-size: 0.8em;
+    font-size: 1em;
     color: $body-text-black;    
+    overflow-x: hidden;
 }
 
 .top-bar {
     background-color: $top-bar-dark-green;
-    grid-row-start: 1;
-    grid-column: 1 / -1;
-    grid-column-gap: 0;
-    overflow-x: hidden;
 }
 
-.grid-container {
-    display: grid;
-    grid-column-gap: 25px;
-    grid-template-columns: minmax(min-content, 240px) minmax(1px, $max-screen-size);
-    grid-template-rows: 20px 114px auto 30px;
+.container {
+    display: flex;
+    flex-direction: column;
 }
 
 .image-container {
-    grid-column-start: 2;
-    grid-row-start: 2;
-    padding-top: 10px;
+    padding-top: 30px;
     object-fit: cover;
     max-width: minmax(1px, $max-screen-size);
     overflow: hidden;
 }
 
 .page-container {
-    grid-column-start: 2;
-    grid-row-start: 3;
     max-width: $max-screen-size;
 }
 
 .footer {
-    grid-row-start: 4;
-    grid-column-start: 2;
     font-size: 0.7em;
 }
 

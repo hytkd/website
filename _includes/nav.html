@@ -1,7 +1,24 @@
 <div class="navi">
-    {% for item in site.data.nav %}
-        <a href="{{ item.link }}" {% if page.url == item.link %}class="nav-link current"{% else %}class="nav-link"{% endif %}>
-            {{ item.name }}
-        </a>
-    {% endfor %}
+    <div id="menuToggle">
+        <!--
+        A fake / hidden checkbox is used as click reciever,
+        so you can use the :checked selector on it.
+        -->
+        <input type="checkbox" id="menuToggleCheckbox"/>
+
+        <!--
+        Some spans to act as a hamburger.
+        -->
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <ul id="menu">
+            {% for item in site.data.nav %}
+                <a href="{{ item.link }}" {% if page.url == item.link %}class="nav-link current"{% else %}class="nav-link"{% endif %}>
+                    <li>{{ item.name }}</li>
+                </a>
+            {% endfor %}
+        </ul>
+    </div>
 </div>
