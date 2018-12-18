@@ -1,4 +1,4 @@
-- dates: 1.9.2018 - 31.12.2018
+- dates: 1.9.2018 - 21.12.2018
   times:
     - time: ma 19:00-20:30
       location: Unidojo
@@ -6,6 +6,18 @@
       location: Unidojo
     - time: to 19:30-21:00
       location: Porthania
+    - time: pe 18:30-20:00
+      location: Porthania
+    - time: su 9:30-11:00
+      location: Unidojo (vapaavuoro)
+- dates: 4.1.2019 - 31.5.2019
+  times:
+    - time: ma 19:00-20:30
+      location: Unidojo
+    - time: ke 16:00-17:30
+      location: Unidojo
+    - time: to 19:30-21:00
+      location: Porthania (10.1. asti, sen jälkeen alkeiskurssi)
     - time: pe 18:30-20:00
       location: Porthania
     - time: su 9:30-11:00
