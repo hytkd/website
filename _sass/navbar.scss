@@ -6,8 +6,18 @@
     padding-bottom: 10px;
     padding-top: 10px;
     background-color: $background-light-grey;
+    min-height: 125px;
 }
 
+/*  The min-height above tries to ensure that there's enough space for the menu to slide in to the top even if it goes
+    on two lines (typically on mobiles). The media query below reduces the amount of empty space between the menu and
+    banner image on wider screens. 
+*/
+@media screen and (min-width: 1001px) {
+    .navi {
+        min-height: 50px;
+    }
+}
 .nav-link {
     padding: 8px 8px 16px 16px;
     text-decoration: none;
