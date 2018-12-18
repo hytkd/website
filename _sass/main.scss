@@ -11,10 +11,6 @@ body {
     overflow-x: hidden;
 }
 
-.top-bar {
-    background-color: $top-bar-dark-green;
-}
-
 .container {
     display: flex;
     flex-direction: column;
@@ -22,9 +18,11 @@ body {
 
 .image-container {
     padding-top: 30px;
-    object-fit: cover;
-    max-width: minmax(1px, $max-screen-size);
-    overflow: hidden;
+    img { 
+        object-fit: cover;
+        max-width: 840px;
+        overflow: hidden;
+    }
 }
 
 .page-container {
