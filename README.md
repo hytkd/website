@@ -16,7 +16,9 @@ You'll need ruby and bundler to run jekyll locally, if you're on Linux/UNIX or M
 
 After this, the website is accessible at http://localhost:4000. For mobile testing, it might be better to bind jekyll to `0.0.0.0`, so you can access the website with any devices on the same WiFi as the computer serving the website. To accomplish this, replace the last command with
 
-`bundle exec jekyll serve -o 0.0.0.0`
+`bundle exec jekyll serve --host=0.0.0.0`
+
+You can then access the website at your local network IP (check e.g. by `ifconfig`).
 
 ## TODO
 
