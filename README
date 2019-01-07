@@ -4,7 +4,7 @@ Built on [jekyll](https://jekyllrb.com/) and [Github pages](https://pages.github
 
 ## Updating
 
-Whatever you push to `master`, will be automatically deployed. 
+Whatever you push to `master`, will be automatically deployed. It seems to take about couple of minutes to take effect.
 
 ## Building the site locally
 
