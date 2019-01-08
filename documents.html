@@ -10,3 +10,11 @@ title: HYTKD - Dokumentit
 <h2>Teoriamoniste</h2>
 
 <p>Seuran <a href="/documents/HYTKD-teoria-2010.pdf">teoriapaketti</a> on hyvä kerrata erityisesti ennen vyökoetta.</p>
+
+<h2>Värivöiden liikesarjat</h2>
+
+<ul class="non-indented-list">
+	{% for item in site.data.patterns %}
+		<li>{{ item.name }}: <a href="documents/patterns/{{ item.pdf }}">Teoria</a> <a href="{{ item.youtube }}">YouTube</a></li>
+	{% endfor %}
+</ul>
