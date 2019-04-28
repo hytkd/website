@@ -57,7 +57,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll
+  jekyll (~> 3.8.5)
   tzinfo-data
 
 BUNDLED WITH
