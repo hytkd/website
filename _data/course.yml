@@ -1,8 +1,8 @@
-beginning_date: to 17.1.2019
+beginning_date: su 8.9.2019
 first_training_location: Porthanian liikuntasalissa
-first_training_time: 19:30-21:00
-fee: 50
-duration: 17.1.2019-30.4.2019
+first_training_time: 11:30-13:00
+fee: 30
+duration: 8.9.2019-15.12.2019
 training_times:
-  - time: to 19:30-21:00
+  - time: su 11:30-13:00
     location: Porthania
