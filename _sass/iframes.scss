@@ -1,11 +1,11 @@
-.calendar-container {
+.iframe-container {
     position: relative;
     height: 0;
     width: 100%;
     padding-bottom: 100%;
 }
 
-.calendar-container iframe {
+.iframe-container iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -13,15 +13,20 @@
     height: 100%;
 }
 
+.reference-numbers-table-container {
+    max-width: 446px;
+    padding-bottom: 60%;
+}
+
 @media screen and (max-width:1001px) {
-    .calendar-desktop {
+    .iframe-desktop {
         display: none;
         visibility: hidden;
     }
 }
 
 @media screen and (min-width:1000px) {
-    .calendar-mobile {
+    .iframe-mobile {
         display: none;
         visibility: hidden;
     }
