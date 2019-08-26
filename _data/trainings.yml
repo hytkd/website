@@ -6,7 +6,7 @@
       location: *TOOLO
     - time: to 18:45 – 20:15
       location: &PORTSU <a href="https://goo.gl/maps/t21PcHXy8ky" target="_blank">Porthania</a>
-    - time: la 13:00 – 14:30 (28.12. asti)
+    - time: la 13:00 – 14:30 (vapaavuoro, 28.12. asti)
       location: *TOOLO
     - time: su 10:00 – 11:30 (vapaavuoro)
       location: *PORTSU
