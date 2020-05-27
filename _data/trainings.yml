@@ -1,12 +1,8 @@
-- dates: 1.1.2020 – 31.05.2020
+- dates: 1.6.2020 – 31.08.2020
   times:
-    - time: ma 18:30 – 20:00
-      location: &TOOLO <a href="https://goo.gl/maps/Hcs6GgR9x8ebmiZp9" target="_blank">Töölön ala-aste</a> 
-    - time: ti 19:00 – 20:30
-      location: *TOOLO
-    - time: to 18:45 – 20:15
+    - time: ti 17:30 – 19:00
       location: &PORTSU <a href="https://goo.gl/maps/t21PcHXy8ky" target="_blank">Porthania</a>
-    - time: la 13:00 – 14:30 (vapaavuoro)
-      location: *TOOLO
-    - time: su 10:00 – 11:30 (vapaavuoro)
+    - time: to 19:20 – 20:50
+      location: *PORTSU
+    - time: pe 16:00 – 17:30 (vapaavuoro)
       location: *PORTSU
