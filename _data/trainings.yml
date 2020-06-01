@@ -1,6 +1,6 @@
 - dates: 1.6.2020 – 31.08.2020
   times:
-    - time: ti 17:30 – 19:00
+    - time: ti 17:00 – 18:30
       location: &PORTSU <a href="https://goo.gl/maps/t21PcHXy8ky" target="_blank">Porthania</a>
     - time: to 19:20 – 20:50
       location: *PORTSU
