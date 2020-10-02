@@ -10,11 +10,3 @@
       location: *TOOLO
     - time: su 10:00 – 11:30 (vapaavuoro)
       location: *PORTSU
-- dates: 1.6.2020 – 31.08.2020
-  times:
-    - time: ti 17:00 – 18:30 (11.8. asti)
-      location: &PORTSU <a href="https://goo.gl/maps/t21PcHXy8ky" target="_blank">Porthania</a>
-    - time: to 19:20 – 20:50
-      location: *PORTSU
-    - time: pe 16:00 – 17:30 (vapaavuoro)
-      location: *PORTSU
